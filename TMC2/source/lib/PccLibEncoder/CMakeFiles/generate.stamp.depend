@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.21/Modules/FindPackageMessage.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/Caffe2Config.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/public/mkl.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/public/mkldnn.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Caffe2/public/utils.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Torch/TorchConfig.cmake
+D:/00Workbench/LibTorch/libtorch/share/cmake/Torch/TorchConfigVersion.cmake
+D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibEncoder/CMakeLists.txt

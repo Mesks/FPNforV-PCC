@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib\TAppCommon\program_options_lite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMAppVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMLibVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMLibVideoDecoderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMAppVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMLibVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMLibVideoDecoderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCSHMAppVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMLibVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMLibVideoDecoderImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMVideoDecoderCfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVirtualVideoDecoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib\TAppCommon\program_options_lite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMAppVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMLibVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMLibVideoDecoderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMAppVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMLibVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMLibVideoDecoderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCSHMAppVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoderCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoderImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVirtualVideoDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A11646F1-EDB7-3BB3-921E-0F60727F9528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35CAC62E-653C-36AD-9676-6984CFE797CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

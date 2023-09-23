@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\source\PCCChecksum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\source\PCCMetrics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\source\PCCMetricsParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\nanoflann\KDTreeVectorOfVectorsAdaptor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\nanoflann\nanoflann.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\include\PCCChecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\include\PCCMetrics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\include\PCCMetricsParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibMetrics\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{A11646F1-EDB7-3BB3-921E-0F60727F9528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35CAC62E-653C-36AD-9676-6984CFE797CF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

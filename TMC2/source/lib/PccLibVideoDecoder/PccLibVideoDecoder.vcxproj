@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C78BC2FE-1EDD-3E6E-AC69-67C061C29C47}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PccLibVideoDecoder</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccLibVideoDecoder.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccLibVideoDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccLibVideoDecoder.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccLibVideoDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccLibVideoDecoder.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccLibVideoDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccLibVideoDecoder.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccLibVideoDecoder</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\lib\lcommon;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\jm19.0_lib\source\app\ldecod;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\.;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\..;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib\CommonLib\x86;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\VTM\source\Lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibVideoDecoder/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib\TAppCommon\program_options_lite.cpp" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\HM-16.20+SCM-8.8\source\Lib\TAppCommon\program_options_lite.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMAppVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMLibVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCHMLibVideoDecoderImpl.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMAppVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMLibVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCJMLibVideoDecoderImpl.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCSHMAppVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoder.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoderCfg.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVTMLibVideoDecoderImpl.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\include\PCCVirtualVideoDecoder.h" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMAppVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMLibVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCHMLibVideoDecoderImpl.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMAppVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMLibVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCJMLibVideoDecoderImpl.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCSHMAppVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMLibVideoDecoder.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMLibVideoDecoderImpl.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVTMVideoDecoderCfg.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibVideoDecoder\source\PCCVirtualVideoDecoder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\ZERO_CHECK.vcxproj">
+      <Project>{5075AB95-DDB8-3A2B-97E9-39C8C6CA3662}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\CommonLib.vcxproj">
+      <Project>{125C15A3-4014-368C-B7F5-C47C6C98B90C}</Project>
+      <Name>CommonLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\DecoderLib_vtm.vcxproj">
+      <Project>{B90131D9-C5DA-34E5-B2AE-2DC3DE02EE42}</Project>
+      <Name>DecoderLib_vtm</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibAvcParser\PccLibAvcParser.vcxproj">
+      <Project>{5D49637F-DF55-3B2F-8FDD-01BBA635AD20}</Project>
+      <Name>PccLibAvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\PccLibBitstreamCommon.vcxproj">
+      <Project>{F10F42A6-9EC8-39FB-A83A-5EBFA0C12D94}</Project>
+      <Name>PccLibBitstreamCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\PccLibCommon.vcxproj">
+      <Project>{4F22105C-BD5D-3E7F-9868-524D41A1CB8B}</Project>
+      <Name>PccLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibHevcParser\PccLibHevcParser.vcxproj">
+      <Project>{249CC861-90FC-3C5B-A4F8-458718873627}</Project>
+      <Name>PccLibHevcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\PccLibShvcParser\PccLibShvcParser.vcxproj">
+      <Project>{F627D060-E031-30D7-9E18-0D86896628F4}</Project>
+      <Name>PccLibShvcParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\TLibCommon.vcxproj">
+      <Project>{47F9D14D-58AA-3827-BE23-37D11FAB8426}</Project>
+      <Name>TLibCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\TLibDecoder.vcxproj">
+      <Project>{C599C48A-4F6A-3BA1-80D5-2A4A60E1D087}</Project>
+      <Name>TLibDecoder</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\ldecod.vcxproj">
+      <Project>{F31C4253-B2EE-3CA2-8D09-9ADA2FAFEB20}</Project>
+      <Name>ldecod</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\libmd5.vcxproj">
+      <Project>{438CF3E6-E9A5-3794-932D-1FDC8B08A489}</Project>
+      <Name>libmd5</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\libmd5_vtm.vcxproj">
+      <Project>{277FE4F0-2C3C-3486-9548-B827CEF36E6C}</Project>
+      <Name>libmd5_vtm</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

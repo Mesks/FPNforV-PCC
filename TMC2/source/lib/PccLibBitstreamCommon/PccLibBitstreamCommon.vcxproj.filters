@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.c">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCBitstream.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCHighLevelSyntax.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCVideoBitstream.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\MD5.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAccessUnitDelimiterRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasAdaptationParameterSetRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasFrameParameterSetRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasFrameTileInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasSequenceParameterSetRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileHeader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileLayerRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAttributeInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCBitstream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCBitstreamCommon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEOMPatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEndOfAtlasSubBitstreamRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEndOfSequenceRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCFillerDataRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCGeometryInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCHighLevelSyntax.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCInterPatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCLogger.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCMergePatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCNalUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCOccupancyInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPLRData.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPLRInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPatchInformationData.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCProfileTierLevel.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCProfileToolsetConstraintsInformation.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCRawPatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCRefListStruct.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSampleStreamNalUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSampleStreamV3CUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSei.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSkipPatchDataUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSupplementalEnhancementInformationRbsp.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CParameterSet.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CUnit.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CUnitHeader.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVUIParameters.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVideoBitstream.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVpccExtension.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{4F2445F3-ACD5-3735-8E7B-9A1BF34CB7E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{97F43220-6D4C-3033-9D09-084465A9FB90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

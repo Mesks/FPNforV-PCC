@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F10F42A6-9EC8-39FB-A83A-5EBFA0C12D94}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PccLibBitstreamCommon</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccLibBitstreamCommon.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PccLibBitstreamCommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccLibBitstreamCommon.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PccLibBitstreamCommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccLibBitstreamCommon.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PccLibBitstreamCommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccLibBitstreamCommon.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PccLibBitstreamCommon</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>5105</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <IncludePaths>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(IncludePaths)</IncludePaths>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckSymbolExists.cmake;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckSymbolExists.cmake;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckSymbolExists.cmake;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test -BD:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test --check-stamp-file D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.21\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.21\Modules\CheckSymbolExists.cmake;D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\MD5.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAccessUnitDelimiterRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasAdaptationParameterSetRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasFrameParameterSetRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasFrameTileInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasSequenceParameterSetRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileHeader.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAtlasTileLayerRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCAttributeInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCBitstream.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCBitstreamCommon.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCConfig.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEOMPatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEndOfAtlasSubBitstreamRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCEndOfSequenceRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCFillerDataRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCGeometryInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCHighLevelSyntax.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCInterPatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCLogger.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCMergePatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCNalUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCOccupancyInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPLRData.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPLRInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCPatchInformationData.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCProfileTierLevel.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCProfileToolsetConstraintsInformation.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCRawPatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCRefListStruct.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSampleStreamNalUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSampleStreamV3CUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSei.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSkipPatchDataUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCSupplementalEnhancementInformationRbsp.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CParameterSet.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CUnit.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCV3CUnitHeader.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVUIParameters.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVideoBitstream.h" />
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\include\PCCVpccExtension.h" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.c" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCBitstream.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCHighLevelSyntax.cpp" />
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibBitstreamCommon\source\PCCVideoBitstream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\ZERO_CHECK.vcxproj">
+      <Project>{5075AB95-DDB8-3A2B-97E9-39C8C6CA3662}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

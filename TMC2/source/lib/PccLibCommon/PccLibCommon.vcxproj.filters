@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.c">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\MesksLib.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCChrono.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCCodec.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCContext.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCFrameContext.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCGroupOfFrames.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCImage.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCKdTree.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCPatch.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCPointSet.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCSystem.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\source\PCCVideo.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\MD5.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\libmd5\libmd5.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\nanoflann\KDTreeVectorOfVectorsAdaptor.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\dependencies\nanoflann\nanoflann.hpp">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\MesksLib.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCChrono.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCCodec.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCCommon.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCConfig.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCContext.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCFrameContext.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCGroupOfFrames.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCImage.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCKdTree.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCMath.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCMemory.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCPatch.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCPointSet.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCSystem.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\include\PCCVideo.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\00Workbench\TMC2_v18.0_VTM_MCCNN\mpeg-pcc-tmc2-Test\source\lib\PccLibCommon\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{4F2445F3-ACD5-3735-8E7B-9A1BF34CB7E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{97F43220-6D4C-3033-9D09-084465A9FB90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

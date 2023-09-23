@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeConfigurableFile.in
+C:/Program Files/CMake/share/cmake-3.21/Modules/CheckSymbolExists.cmake
+D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/CMakeLists.txt
+D:/00Workbench/TMC2_v18.0_VTM_MCCNN/mpeg-pcc-tmc2-Test/source/lib/PccLibBitstreamCommon/include/PCCConfig.h.in
