@@ -37,7 +37,8 @@ extern double ***      v_side;
 extern double ***      h_side;
 extern string CUkeys;
 extern PyObject *     pModule, *pFunc_nnDriver;
-extern double         sum_time;
+extern double         FPNRuntime;
+extern double         postProcessRunTime;
 
 void deleteSideBlockKey();
 void initSideBlockKey();

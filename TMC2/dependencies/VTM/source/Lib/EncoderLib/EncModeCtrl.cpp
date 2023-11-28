@@ -1644,12 +1644,15 @@ bool EncModeCtrlMTnoRQT::tryMode(const EncTestMode& encTestmode, const CodingStr
                 int modelType = OorGorA == 0 ? (isI ? 0 : 1) : (isI ? 2 : 3);
                 clock_t clock_sss = clock();
                 nnPredict(bestCS, &partitioner, modelType);
-                sum_time += clock() - clock_sss;
+                FPNRuntime += clock() - clock_sss;
             }
         }
-        if (MesksSwitch && (OorGorA == 0 && cuHeight <= 64 && cuWidth <= 64 || OorGorA > 0 && cuHeight <= 32 && cuWidth <= 32 /*|| OorGorA > 0 && cuHeight <= 64 && cuWidth <= 64 */))
-            if (isSkipPartition(cuWidth, cuHeight, cuX, cuY, encTestmode.type))
-                return false;
+        if (MesksSwitch && (OorGorA == 0 && cuHeight <= 64 && cuWidth <= 64 || OorGorA > 0 && cuHeight <= 32 && cuWidth <= 32 /*|| OorGorA > 0 && cuHeight <= 64 && cuWidth <= 64 */)) {
+            clock_t clock_sss = clock();
+            bool judge = isSkipPartition(cuWidth, cuHeight, cuX, cuY, encTestmode.type);
+            postProcessRunTime += clock() - clock_sss;
+            if (judge) return false;
+        }
 #endif
         //////////////////////////////////////////////////////////////////////////
         // skip-history rule - don't split further if at least for three past levels

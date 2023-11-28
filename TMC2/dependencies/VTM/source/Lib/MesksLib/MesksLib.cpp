@@ -17,7 +17,8 @@ double*** h_side = NULL;
 string                CUkeys;
 PyObject* pModule = NULL;
 PyObject* pFunc_nnDriver = NULL;
-double                sum_time = 0;
+double                FPNRuntime = 0;
+double                postProcessRunTime = 0;
 
 void initOccupancyData(int width, int height) {
     mapWidth = width;
@@ -396,7 +397,7 @@ int nnPredict(const CodingStructure* bestCS, Partitioner* partitioner, int model
             }
             sideBlock_key[globalSeq] = true;
         }
-        //else sum_time += PyFloat_AsDouble(PyList_GetItem(ListItem));
+        //else FPNRuntime += PyFloat_AsDouble(PyList_GetItem(ListItem));
     }
 
     //checkSide(bestCS->area.Y().lumaPos().x, bestCS->area.Y().lumaPos().y);

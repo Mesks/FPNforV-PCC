@@ -365,8 +365,9 @@ int PCCEncoder::encode( const PCCGroupOfFrames& sources, PCCContext& context, PC
   realtimeFrameCount = -1;
   OorGorA            = 1;
 
-  cout << endl << "MesksTest::Geometry FPN run time: " <<  sum_time / (double) CLOCKS_PER_SEC<<" sec" << endl << endl;
-  sum_time = 0;
+  cout << endl << "MesksTest::Geometry FPN run time: " << FPNRuntime / (double) CLOCKS_PER_SEC<<" sec" << endl << "MesksTest::Geometry post process run time: " << postProcessRunTime / (double)CLOCKS_PER_SEC << " sec" << endl << endl;
+  FPNRuntime = 0;
+  postProcessRunTime = 0;
 #endif
 
     if ( params_.attributeBGFill_ < 3 ) {
@@ -756,7 +757,7 @@ int PCCEncoder::encode( const PCCGroupOfFrames& sources, PCCContext& context, PC
   params_.singleMapPixelInterleaving_ = ( singleMapPixelInterleavingOriginal != 0u );
   printf( "Done Encoder \n" );
 #ifdef MesksTest  // free memory of occupancyData
-  cout << endl << "MesksTest::Attribute FPN run time: " << sum_time / (double)CLOCKS_PER_SEC << " sec" << endl << endl;
+  cout << endl << "MesksTest::Attribute FPN run time: " << FPNRuntime / (double)CLOCKS_PER_SEC << " sec" << endl << "MesksTest::Attribute post process run time: " << postProcessRunTime / (double)CLOCKS_PER_SEC << " sec" << endl << endl;
 
   deleteOccupancyData();
   deleteSideArray();
