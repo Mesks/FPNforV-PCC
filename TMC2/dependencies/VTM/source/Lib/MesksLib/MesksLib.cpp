@@ -305,7 +305,7 @@ void MCCNNInit()
     PyRun_SimpleString("sys.path.append('../external')");
     
     // Calling array_tutorial from mymodule
-    pModule = PyImport_ImportModule("FPN_woOccu_driver");
+    pModule = PyImport_ImportModule("FPN_driver");
     if (!pModule)
         cout << "Python module is not import, please check the file exists and no compilation errors." << endl;
     pFunc_nnDriver = PyObject_GetAttrString(pModule, "nnDriver");
