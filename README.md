@@ -1,5 +1,5 @@
 # Feature Pyramid Network based Video-based point cloud compress Fast Coding Unit Partition Approach
-This is the official repository of source codes and deployment methods for the paper "FPN-based V-PCC Fast CU Partition Approach". In order to reduce its meaning and express it uniformly, the following takes "FPNforV-PCC" as the root directory, for example, the location of "README.md" is "/README.md"
+This is the official repository of source codes and deployment methods for the paper "A feature pyramid network based partition map prediction method for efficient encoding in Video-based Point Cloud Compress". In order to reduce its meaning and express it uniformly, the following takes "FPNforV-PCC" as the root directory, for example, the location of "README.md" is "/README.md"
 
 <b>If you have contacted TMC2 and VTM, you can skip subsequent lengthy instructions and directly use the source under “/TMC2/dependencies” and "/TMC2/source" to change the source of original "dependencies" and "source" of TMC2 and check the methods described in our paper.  If you are not familiar with the package structure of TMC2, it is strongly recommended that you configure it as described below.</b>
 
