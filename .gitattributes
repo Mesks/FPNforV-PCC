@@ -1,2 +1,0 @@
-FPN_training/FPNforVPCC_Dataset.zip filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
